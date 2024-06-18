@@ -1,5 +1,8 @@
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Journal journal = new Journal();
+    Simulator fileSystem = new Simulator(journal);
+    Prompt handler = new Prompt(fileSystem);
+    handler.startShell();
   }
 }

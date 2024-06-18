@@ -1,0 +1,13 @@
+MKDIR system/
+MKDIR system/users/
+MKDIR system/users/ana/
+MKDIR system/users/ana/projects/
+MKDIR system/users/ana/projects/java/
+CREATE system/users/ana/projects/java/main.java
+MKDIR system/
+MKDIR system/users/
+MKDIR system/users/ana/
+MKDIR system/users/ana/projects/
+MKDIR system/users/ana/projects/javascript/
+CREATE system/users/ana/projects/javascript/main.js
+LS .
